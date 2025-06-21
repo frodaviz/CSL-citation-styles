@@ -5,7 +5,7 @@
     <id>http://www.zotero.org/styles/ecampus</id>
     <link href="http://www.zotero.org/styles/ecampus" rel="self"/>
     <link href="http://www.zotero.org/styles/elsevier-with-titles" rel="template"/>
-    <link href="guidelines.pdf" rel="documentation"/>
+    <link href="https://github.com/frodaviz/CSL-citation-styles/blob/main/eCampus-LM32.pdf" rel="documentation"/>
     <author>
       <name>Davide Murrau</name>
       <email>davide.murrau@cnr.it</email>
