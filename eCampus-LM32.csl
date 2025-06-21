@@ -14,7 +14,7 @@
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <summary>eCampus</summary>
-    <updated>2025-06-21T15:13:00+00:00</updated>
+    <updated>2025-06-21T15:27:10+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -93,8 +93,12 @@
     </layout>
   </citation>
   <bibliography entry-spacing="0" second-field-align="flush" et-al-min="5" et-al-use-first="4">
+    <sort>
+      <key variable="author"/>
+      <key variable="issued"/>
+      <key variable="title"/>
+    </sort>
     <layout suffix=".">
-      <text variable="citation-number" prefix="[" suffix="]"/>
       <text macro="author" suffix=", "/>
       <choose>
         <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
