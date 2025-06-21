@@ -14,7 +14,7 @@
     <category field="engineering"/>
     <category field="generic-base"/>
     <summary>eCampus - LM32 v0.01</summary>
-    <updated>2025-06-21T17:24:23+00:00</updated>
+    <updated>2025-06-21T17:27:19+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -76,7 +76,7 @@
   <macro name="author">
     <names variable="author">
       <name and="text" et-al-min="7" et-al-use-first="1" initialize-with=". " name-as-sort-order="all" sort-separator=" "/>
-      <label form="short" prefix=", " text-case="capitalize-first"/>
+      <label form="short" text-case="capitalize-first" prefix=", "/>
       <et-al font-style="italic"/>
       <substitute>
         <names variable="editor"/>
@@ -215,7 +215,7 @@
         <else/>
       </choose>
       <text macro="author" suffix=", "/>
-      <group suffix=" ">
+      <group font-variant="normal" suffix=" ">
         <choose>
           <if type="article-journal">
             <group delimiter=", ">
